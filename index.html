@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/olo.PNG" sizes="16*16">
+</head>
+<body>
+<div id="background">
+    <div class="calcul">
+        <form name="calculator" id="calculator">
+            <input type="text" name="inputwindow" id="input">
+            <div>
+                <input type="button" id="one" value="1" onclick="inputValue(document.getElementById('one').value)">
+                <input type="button" id="two" value="2" onclick="inputValue(document.getElementById('two').value)">
+                <input type="button" id="three" value="3" onclick="inputValue(document.getElementById('three').value)">
+                <input type="button" id="plus" value="+" onclick="inputValue(document.getElementById('plus').value)">
+            </div>
+            <div>
+                <input type="button" id="four" value="4" onclick="inputValue(document.getElementById('four').value)">
+                <input type="button" id="five" value="5" onclick="inputValue(document.getElementById('five').value)">
+                <input type="button" id="six" value="6" onclick="inputValue(document.getElementById('six').value)">
+                <input type="button" id="minus" value="-" onclick="inputValue(document.getElementById('minus').value)">
+            </div>
+            <div>
+                <input type="button" id="seven" value="7" onclick="inputValue(document.getElementById('seven').value)">
+                <input type="button" id="eight" value="8" onclick="inputValue(document.getElementById('eight').value)">
+                <input type="button" id="nine" value="9" onclick="inputValue(document.getElementById('nine').value)">
+                <input type="button" id="multiply" value="*" onclick="inputValue(document.getElementById('multiply').value)">
+            </div>
+            <div>
+                <input type="button" id="zero" value="0" onclick="inputValue(document.getElementById('zero').value)">
+                <input type="button" id="decimal" value="." onclick="inputValue(document.getElementById('decimal').value)">
+                <input type="button" id="divide" value="/" onclick="inputValue(document.getElementById('divide').value)">
+                <input type="button" id="percent" value="%" onclick="inputValue(document.getElementById('percent').value)">	
+            </div>
+            <div class="results">
+                <input type="button" id="equal" value="=" onclick="calculateResult()">
+                <button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Clear</button>
+            </div>
+    
+        </form>	
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="graph">
+        Challenge by
+        <a href="#" target="_blank"> ECX:</a> Coded by <a href="https://github.com/omololacrea8/">Fele Omolola</a>.
+      </div>
+<script src="script.js"></script>
+</body>
+</html>

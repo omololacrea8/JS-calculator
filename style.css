@@ -1,0 +1,92 @@
+body {
+	background-color: rgb(10, 195, 247);
+}
+#background {
+    width:300px;
+    height:450px;
+    background:gray;
+    margin:50px auto;
+    -webkit-animation:bgChange 2s 2s alternate infinite;
+    transition: all 2s ease;
+}
+
+body div.calcul {
+	text-align: center;
+	width: 220px;
+    margin: 0 auto;
+    top:20%;   
+}
+
+div input[type='button'],
+button {
+	width: 50px;
+	height: 50px;
+	margin: 2px 0;
+}
+
+div input[type="text"] {
+	height: 50px;
+	width: 100%;
+	background-color: #999;
+	color: #fff;
+	padding: 12px 20px;
+    margin-top: 100px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #777;
+}
+
+div.results input, 
+div.results button {
+	height: 50px;
+	width: 104px;
+}
+
+div.results button {
+	background-color: rgb(245, 13, 13);
+	color: #fff;
+	border: 1px solid rgb(245, 13, 13);
+}
+
+div.results input {
+	background-color: #fd7202;
+	color: #fff;
+	border: 1px solid #fd7202;
+}
+
+#plus,
+#minus,
+#multiply, 
+#divide,
+#percent {
+	background-color: rgb(11, 147, 238);
+	color: #fff;
+	border: 1px solid rgb(11, 147, 238);
+	font-size: 16px;
+}
+
+@-webkit-keyframes bgChange {
+    0% {
+       background:#24b4de; 
+    }
+    
+    50% {
+      background:#072cf8;
+    }
+    
+    100% {
+        background:#064457;
+    }
+}
+/* Default Style */
+.graph {
+    font-size: 11px;
+    text-align: center;
+    
+  }
+  .graph a {
+    color: hsl(14, 88%, 54%);
+    text-decoration: none;
+    cursor: pointer;
+  }
